@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "rimraf dist && vite",
     "build": "vite build",
-    "release": "cbump --tag --commit"
+    "release": "cbump --tag --commit && vite build"
   },
   "dependencies": {
     "vue": "^3.2.25"
