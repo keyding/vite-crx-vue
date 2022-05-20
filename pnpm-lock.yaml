@@ -5,7 +5,6 @@ specifiers:
   '@types/chrome': ^0.0.181
   '@vitejs/plugin-vue': ^2.3.1
   crx-bump: ^0.0.4
-  rimraf: ^3.0.2
   rollup: ^2.70.1
   rollup-plugin-zip: ^1.0.3
   sass: ^1.50.0
@@ -20,7 +19,6 @@ devDependencies:
   '@types/chrome': 0.0.181
   '@vitejs/plugin-vue': 2.3.1_vite@2.9.4+vue@3.2.33
   crx-bump: 0.0.4
-  rimraf: 3.0.2
   rollup: 2.70.1
   rollup-plugin-zip: 1.0.3_rollup@2.70.1
   sass: 1.50.0
@@ -1404,13 +1402,6 @@ packages:
   /reusify/1.0.4:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
-    dev: true
-
-  /rimraf/3.0.2:
-    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
-    hasBin: true
-    dependencies:
-      glob: 7.2.0
     dev: true
 
   /rollup-plugin-zip/1.0.3_rollup@2.70.1:

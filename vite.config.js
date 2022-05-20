@@ -2,7 +2,7 @@ import path from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-import { crx } from 'rollup-plugin-chrome-extension'
+import { crx } from '@crxjs/vite-plugin'
 import zip from "rollup-plugin-zip"
 
 import manifest from './src/manifest.json'
@@ -24,6 +24,9 @@ export default defineConfig({
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`
     }
+  },
+  build: {
+    outDir: isProd ? 'dist/build' : 'dist/dev',
   },
   plugins: [vue(), crx(crxOptions), isProd && zip({ dir: "releases" })]
 })
