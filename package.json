@@ -16,12 +16,12 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.5",
     "@types/chrome": "^0.0.181",
     "@vitejs/plugin-vue": "^2.3.1",
     "crx-bump": "^0.0.4",
     "rimraf": "^3.0.2",
     "rollup": "^2.70.1",
-    "rollup-plugin-chrome-extension": "4.0.1-23",
     "rollup-plugin-zip": "^1.0.3",
     "sass": "^1.50.0",
     "vite": "^2.9.2"
