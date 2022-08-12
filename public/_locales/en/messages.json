@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "vite-crx-vue",
+    "description": "Extension name."
+  },
+  "extDescription": {
+    "message": "Chrome extension templates based on Vite and crx/vite-plugin",
+    "description": "Extension description."
+  }
+}

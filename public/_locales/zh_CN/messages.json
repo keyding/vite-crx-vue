@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "vite-crx-vue",
+    "description": "扩展名称."
+  },
+  "extDescription": {
+    "message": "基于 Vite 和 crx/vite-plugin 的 Chrome 扩展模版",
+    "description": "扩展描述."
+  }
+}
