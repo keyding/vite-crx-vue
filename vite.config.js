@@ -12,9 +12,10 @@ const isProd = process.env.NODE_ENV === "production"
 
 const crxOptions = {
   manifest: Object.assign(manifest, { 
-    name: pkg.displayName || pkg.name, 
     version: pkg.version,
-    description: pkg.description
+    // Tip: Support for i18n, no need to do so
+    // name: pkg.displayName || pkg.name, 
+    // description: pkg.description
   })
 }
 
