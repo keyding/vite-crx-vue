@@ -3,7 +3,7 @@
   "displayName": "Vite Crx Vue",
   "description": "Chrome extension development template based on Vite and Vue",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "tita0x00@gmail.com",
   "repository": "https://github.com/keyding/vite-crx-vue",
   "homepage": "https://github.com/keyding/vite-crx-vue#readme",
@@ -13,18 +13,18 @@
     "release": "cbump --tag --commit && vite build"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "^1.0.5",
-    "@types/chrome": "^0.0.181",
-    "@vitejs/plugin-vue": "^2.3.1",
+    "@crxjs/vite-plugin": "^1.0.13",
+    "@types/chrome": "^0.0.193",
+    "@vitejs/plugin-vue": "^2.3.2",
     "crx-bump": "^0.0.4",
-    "rollup": "^2.70.1",
+    "rollup": "^2.77.3",
     "rollup-plugin-zip": "^1.0.3",
-    "sass": "^1.50.0",
-    "vite": "^2.9.2"
+    "sass": "^1.54.4",
+    "vite": "^2.9.14"
   },
-  "packageManager": "pnpm@6.32.3",
+  "packageManager": "pnpm@7.9.0",
   "license": "MIT"
 }
